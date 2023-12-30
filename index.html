@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Management</title>
+    <style>
+        body {
+            font-family: 'times new roman', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f;
+            color: #333;
+            background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+  background-repeat: no-repeat;
+  background-size: 200vh 100vh;
+        }
+        header {
+            background-color: #3498db;
+            color: #000;
+            padding: 20px;
+            text-align: center;
+            border-radius: 20px;
+            background: rgba(0, 0, 0, 0.100);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+        }
+        section {
+            max-width: 19000px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: none;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border-radius: 20px;
+            backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  background: rgba(0, 0, 0, 0.100);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(40px);
+  -webkit-backdrop-filter: blur(40px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+        }
+        h2, h3 {
+            color: #fff;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .booking-form {
+  max-width: 400px;
+  margin: 0 auto;
+  
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.100);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+ 
+}
+
+label {
+  margin-top: 10px;
+  background-image: linear-gradient(45deg, #FA8BFF 34%, #2BD2FF 52%, #2BFF88 63%);
+  
+}
+
+input, select {
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 10px;
+  border-color: #f9f;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+dialog{
+  background-color: #fff;
+  background-image: linear-gradient(45deg, #FA8BFF 34%, #2BD2FF 52%, #2BFF88 90%);
+  color: #fff;
+  border-color: #f9f;
+  border width: 2px;
+  
+}
+option {
+  color: #3498db;
+}
+@media screen and (max-width: 600px) {
+  .booking-form {
+    max-width:}
+    
+    :root{
+  /*change to your level*/
+  --html: 54%;
+  --css: 37%;
+  --js: 16%;
+  --bts: 10%
+}
+
+* {
+  padding: 0;
+  font-family: sans-serif;
+  list-style: none;
+}
+.skills {
+  max-width: 500px;
+  margin: 60px auto;
+  color: white;
+}
+.skills li {
+  text-transform: uppercase;
+  margin: 20px 0;
+}div.skills h1{
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+div.skills h1::after{
+  margin: 5px auto;
+  content: "";
+  display: block;
+  width: 50px;
+  height: 4px;
+  background: #00FFB3;
+}
+bar {
+  background: #353b48;
+  display: block;
+  height: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+
+  border-radius: 3px;
+
+  overflow: hidden;
+  box-shadow: 0 0 10px #2187e7b3;
+  position: relative;
+}
+
+.bar span {
+  height: 4px;
+  position: absolute;
+  left: 0;
+  background: #2187e7;
+}
+.html {
+  width: var(--html);
+  animation: html 29s ease;
+
+}
+
+.css {
+  width: var(--css);
+  animation: css 29s linear;
+
+}
+
+.js {
+  width: var(--js);
+  animation: js 29s linear;
+
+}
+
+.bts {
+  width: var(--bts);
+  animation: bts 29s linear;
+}
+
+@keyframes html {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: var(--html);
+  }
+}
+@keyframes html {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: var(--html);
+  }
+}
+@keyframes bts {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: var(--bts);
+  }
+}
+@keyframes css {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: var(--css);
+  }
+}
+@keyframes js {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: var(--js);
+  }
+}
+@keyframes bts {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: var(--bts);
+  }
+}
+#clock {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  font-style: italic;
+  margin: 15px 0 15px;
+  border: 2px ;
+  border-radius: 3px;
+  background: #f9f9;
+  color: mediumvioletred;
+  font-weight: bold;
+}
+small {
+  color: mediumspringgreen;
+  
+
+  
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+      welcome To : -
+        <h1>PURVANCHAL HOSPITAL AND RESEARCH CENTRE 🏥</h1>
+        <a href='https://postimg.cc/ZCwVkczL' target='_blank'><img src='https://i.postimg.cc/ZCwVkczL/IMG-20231230-150303.jpg' border='2' alt='IMG-20231230-150303'/></a>
+        <p><i><marquee behavior="scroll" direction="left" scrollamount="4">"🚑 To Save the life of patients ❤️ and making them Fit and Fine is our main motive 🙋‍♂️ "</marquee>
+        </i></p>
+    </header>
+    <section>
+          <h2><i>Feature others than Normal website 💡:-</i></h3>
+      <details>
+<summary> click to view more : -</summary>
+	<p><b>Just more Than!</b> <i>A Hospital website👩‍💻that can save life 🧬  by finding ,the best  Treatment at reasonable price💰 with all Medical👨‍⚕️ expertise...</i> </p>
+	</details>
+        
+        <p>
+        
+        </p>
+    </section>
+   <section>
+     <div class="holder">
+  <h2><i>Login Form 📝</i></h3>
+  <a href='https://postimg.cc/xXSH4NcP' target='_blank'><img src='https://i.postimg.cc/xXSH4NcP/Screenshot-2023-12-30-15-10-04-68.jpg' border='0' alt='Screenshot-2023-12-30-15-10-04-68'/></a>
+  <input class="o" type="text" placeholder="E-mail"><br>
+  <input class="t" type="number" placeholder="Password"><br>
+  <div class="c">👉 Didn't have Account : -<a href="#">Sign-up Here 📝</a><br><br>
+   ✌️Already Have Account : -<a href="#">Login Here...</a><br><br>
+   
+    
+
+    <input type="radio"><b>I Accept All Terms & Conditions : -</b>
+    
+  </div>
+  <button type=><b>Submit</b></button>
+   <button onclick="iDialog.showModal()"><b>Terms And Conditions</b></button>
+
+
+
+<dialog id="iDialog">
+  <p>Dear ; 
+            Users ❤️ we care your concern Related to privacy and Data Breaches ,We had large No of Cybersecurity Expert 👩‍💻That protects Your Data.If their is kind of any services Broken Kindly report us,at : -🙋‍♂️ 📩divyanshupradhan678@gmail.com  </p>
+  <button onclick="iDialog.close()">I Understand</button>
+</dialog>
+
+</div>
+
+     </section>
+    <section>
+        
+        <main>
+    <div class="booking-form">
+      <h2><i>Book an Appointment with your doctor 👨‍⚕️...</i></h2>
+      <a href='https://postimg.cc/8FRvGprV' target='_blank'><img src='https://i.postimg.cc/8FRvGprV/Screenshot-2023-12-30-15-07-16-07.jpg' border='0' alt='Screenshot-2023-12-30-15-07-16-07'/></a>
+      <title>clock</title>
+      <body><p><b>Time : -<b></p>
+  <div id="clock"></div>
+  <script src="index.js"></script>
+</body>
+
+      <script>
+      let clock = () => {
+  const data = new Date();
+  let hours = data.getHours();
+  let mins = data.getMinutes();
+  let seconds = data.getSeconds();
+  let period = 'AM';
+  if (hours == 0) {
+    hours = 12;
+    period = 'AM'
+  }
+  if (hours >= 12) {
+    hours = hours - 12;
+    period = 'PM'
+  }
+
+  hours = hours < 10 ? "0" + hours : hours;
+  mins = mins < 10 ? "0" + mins : mins;
+  seconds = seconds < 10 ? "0" + seconds : seconds;
+
+  let time = `${hours}:${mins}:${seconds} ${period}`;
+  document.getElementById('clock').innerText = time;
+  setTimeout(clock, 1000)
+}
+
+clock()
+</script>
+      <details>
+
+<summary> click Here! To Book an Appointment : -</summary>
+     <p> <form>
+        <label for="name"><b>Name:</b></label>
+        <input type="text" id="name" required>
+
+        <label for="email"><b>Email:</b></label>
+        <input type="email" id="email" required>
+
+        <label for="doctor"><b>Doctor:<b></label>
+        <select id="doctor">
+          <option value="doctor1">Dr.Divyanshu Pradhan</option>
+          <option value="doctor2">Dr Krishna shukla</option>
+          <option value="doctor3">Dr.Anchal singh </option>
+          <option value="Dr.Milee Soni">Dr.Milee soni</option>
+          <option value="Doctor4">other</option></option>
+        </select>
+        <button onclick="myDialog.showModal()">Doctors Advice</button>
+
+<dialog id="myDialog">
+  <p>Makes Sure to bring your early prescription📝 ; As it will help to give the best treatment💉...</p> </p>
+  <button onclick="myDialog.close()">Okay</button>
+</dialog>
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" required>
+
+        <label for="time">Time:</label>
+        <input type="time" id="time"   
+<required>
+
+        <input type="submit" value="Book Now">
+      </form>
+    </div>
+  </main></p>
+  </details>
+
+        <p>     
+        
+        </p>
+        <ul>
+           <marquee width="60%" direction="up" height="100px" scrollamount="4"><b> 👉Mention Your Full Name According to your Adhaar Card \ Ayushman Card.</b></marquee>
+           <p><i><marquee behavior="scroll" direction="left" scrollamount="5"> <p style="color: red;")> 🚈🚃🚃🚃🚃🚃🚃----Notice:----🚃🚃🚃🚃🚃</p></marquee>
+
+        </i></p>
+
+            
+           <marquee width="60%" direction="up" height="100px" scrollamount="4"><b>👉
+            The Given E-mail ID Must Check Regularly For your Health Checkup Updates.</b></marquee>
+            
+      
+        </ul>
+    </section>
+    <section>
+        <h2>Our Departments ⚕️ : -</h3>
+<a href='https://postimg.cc/1gjHg53V' target='_blank'><img src='https://i.postimg.cc/1gjHg53V/Screenshot-2023-12-30-14-58-44-12.jpg' border='2' alt='Screenshot-2023-12-30-14-58-44-12'/></a>
+
+      <li>  
+      👉  Orthopaedic.</li>
+          <li>👉 pathology.</li>
+
+          <li>👉 Opthalmologist.</li>
+
+          <li>👉  Pharmacist. </li>
+
+          <li>👉 Radiology. </li>
+
+          <li>👉 Surgeon. </li>
+
+          <li>👉 Cardiology. </li>
+
+          <li>👉 Physiotherapy. </li>
+
+          <li>👉 Nuerology.</li>
+          <li>👉  Physiatric.</li>
+          
+    </section>
+        <section>
+
+        <h2> Departments Head 👨‍🔬:-</h3>
+        <a href='https://postimg.cc/DW3TsFp0' target='_blank'><img src='https://i.postimg.cc/DW3TsFp0/Screenshot-2023-12-30-15-14-44-49.jpg' border='2' alt='Screenshot-2023-12-30-15-14-44-49'/></a>
+        <li>
+           <marquee width="60%" direction="up" height="100px" scrollamount="2"><b><li>👉 Cardiology.[Dr.Divyanshu]( Founder and managing Director)</li>
+      <li>  
+      👉  Orthopaedic.[Dr.Krishna]</li>
+       <li>👉  Physiatric.[Dr.Milee soni]</li>
+         <li>👉 Surgeon.[Dr.Anchal Singh] </l
+       
+          <li>👉 pathology.</li>
+
+          <li>👉 Opthalmologist.</li>
+
+          <li>👉  Pharmacist. </li>
+
+          <li>👉 Radiology. </li>
+
+       
+
+         
+
+          <li>👉 Physiotherapy. </li>
+
+          <li>👉 Nuerology.</li>
+           </b></marquee>
+          
+
+
+          
+    </section>
+    
+
+
+
+    <section>
+      
+        <div class="skills">
+    <h1 class=""><i>RECORD CASES</i></h1>
+    <a href='https://postimg.cc/YLHGyJSC' target='_blank'><img src='https://i.postimg.cc/YLHGyJSC/Screenshot-2023-12-30-15-18-01-30.jpg' border='2' alt='Screenshot-2023-12-30-15-18-01-30'/></a>
+    <li class="">
+      <h3><li>* Viral Fever</li></h3><span class="bar"><span class="html"></span></span>
+    </li>
+    <li class="">
+      <h3><li>* COVID-19</li></h3><span class="bar"><span class="css"></span></span>
+    </li>
+    <li class="">
+      <h3><li>* Surgical Cases</li></h3><span class="bar"><span class="js"></span></span>
+    </li>
+    <li class="">
+      <h3>* Other Disease</h3><span class="bar"><span class="bts"></span></span>
+    </li>
+      <li>
+
+          <p><marquee>
+
+
+        <marquee class="marq"
+
+                 
+
+                 behavior=alternate
+
+                 direction="left"
+
+                 loop="0">
+
+           Dr. Krishna 🚗
+
+        </marquee>🚜Dr. Divyanshu</li></p>
+       <small>
+<b><i>This Website Co-Developed by Primesoft Private Limited®.-:CEO-Divyanshu Pradhan : -</b> <br> All Rights Reserved ®.</br></small></i>
+  </div>
+      </section>
+      <section><a href='https://postimg.cc/dZvJGFWw' target='_blank'><img src='https://i.postimg.cc/dZvJGFWw/IMG-20231229-124232.jpg' border='4' alt='IMG-20231229-124232'/></a></section>
+</body>
+</html>
